@@ -26,6 +26,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# change default user model
+AUTH_USER_MODEL = 'user.User'
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -39,6 +42,7 @@ INSTALLED_APPS = [
     'tag.apps.TagConfig',
     'post.apps.PostConfig',
     'user.apps.UserConfig',
+    'comment.apps.CommentConfig',
 ]
 
 MIDDLEWARE = [
