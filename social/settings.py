@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     # My app
     'tag.apps.TagConfig',
     'post.apps.PostConfig',
+    'user.apps.UserConfig',
 ]
 
 MIDDLEWARE = [
